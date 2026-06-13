@@ -1,9 +1,15 @@
-# Analog-projects
-This repository contains the implementation of fundamental digital logic circuits using Cadence Virtuoso. Each circuit has been designed, simulated, and physically implemented at the layout level. The designs have been verified through Design Rule Check (DRC) and Layout Versus Schematic (LVS) to ensure correctness and manufacturability.
+# Analog Projects
 
-The project serves as a foundation for VLSI and Digital IC Design, covering basic combinational and sequential circuits.
-Digital-Logic-Design/
-│
+## Overview
+
+This repository contains fundamental digital logic circuits designed using **Cadence Virtuoso**. Each circuit has been designed at the transistor level, simulated using Spectre, and physically implemented through custom layout design. All layouts have successfully passed **DRC (Design Rule Check)** and **LVS (Layout Versus Schematic)** verification.
+
+---
+
+## Project Structure
+
+```text
+Analog-Projects/
 ├── Basic_Gates/
 │   ├── AND_Gate/
 │   ├── OR_Gate/
@@ -21,44 +27,63 @@ Digital-Logic-Design/
 │   └── T_FlipFlop/
 │
 ├── Images/
-│
 └── README.md
+```
 
+---
 
-Cadence Virtuoso
-Spectre Simulator
-Assura / Pegasus (DRC & LVS)
-CMOS Technology Library
+## Tools Used
 
+- Cadence Virtuoso
+- Spectre Simulator
+- Assura / Pegasus
+- CMOS Technology Library
 
-| Circuit      | Simulation | Layout | DRC | LVS |
-| ------------ | ---------- | ------ | --- | --- |
-| NOT Gate     | ✔          | ✔      | ✔   | ✔   |
-| AND Gate     | ✔          | ✔      | ✔   | ✔   |
-| OR Gate      | ✔          | ✔      | ✔   | ✔   |
-| NAND Gate    | ✔          | ✔      | ✔   | ✔   |
-| NOR Gate     | ✔          | ✔      | ✔   | ✔   |
-| XOR Gate     | ✔          | ✔      | ✔   | ✔   |
-| XNOR Gate    | ✔          | ✔      | ✔   | ✔   |
-| SR Latch     | ✔          | ✔      | ✔   | ✔   |
-| D Latch      | ✔          | ✔      | ✔   | ✔   |
-| D Flip-Flop  | ✔          | ✔      | ✔   | ✔   |
-| JK Flip-Flop | ✔          | ✔      | ✔   | ✔   |
-| T Flip-Flop  | ✔          | ✔      | ✔   | ✔   |
+---
 
+## Design Flow
 
-Each circuit folder contains:
+1. Schematic Design
+2. Functional Simulation
+3. Layout Design
+4. DRC Verification
+5. LVS Verification
 
-Schematic Diagram
-Simulation Waveforms
-Layout Screenshot
-DRC Report
-LVS Report
+---
 
+## Verification Status
 
-👨‍💻 Author
+| Circuit | Schematic | Simulation | Layout | DRC | LVS |
+|----------|----------|----------|--------|-----|-----|
+| Basic Gates | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Flip-Flops | ✅ | ✅ | ✅ | ✅ | ✅ |
 
-Kaushik N
+---
+
+## Included Designs
+
+### Basic Gates
+- AND Gate
+- OR Gate
+- NOT Gate
+- NAND Gate
+- NOR Gate
+- XOR Gate
+- XNOR Gate
+
+### Sequential Circuits
+- SR Latch
+- D Latch
+- D Flip-Flop
+- JK Flip-Flop
+- T Flip-Flop
+
+---
+
+## Author
+
+**Kaushik N**
 
 Electronics and Communication Engineering (ECE)
+
 VLSI Design | Digital IC Design | Cadence Virtuoso
