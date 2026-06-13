@@ -314,8 +314,8 @@ CLA_Adder_Cadence/
 
 ## 🧑‍💻 Author
 
-**Raghul**  
-B.E. / B.Tech — VLSI Design  
+**KAUSHIK N**  
+Electronics and communication engineering  
 Cadence Virtuoso | GPDK 180nm | Digital CMOS Design
 
 ---
