@@ -224,3 +224,4 @@ All four bit-slices placed and routed in Cadence Virtuoso. Power rails (VDD = 1.
 ---
 
 *Designed by KAUSHIK N*
+B.E - Electronics and Communication engineering
